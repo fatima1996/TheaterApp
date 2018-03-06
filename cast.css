@@ -1,0 +1,20 @@
+.heading {
+  display : flex;
+  align-items: center;
+  justify-content: center;
+  font-family: fantasy;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 40px;
+}
+.text {
+  text-align: justify;
+  margin: 0 auto;
+}
+.title {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+}
